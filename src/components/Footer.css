@@ -7,6 +7,10 @@
 	border-bottom: 1px solid rgba(103, 104, 113, 0.2);
 }
 
+.onesocialgrid {
+	display: none;
+}
+
 .footer1grid ul {
 	margin-bottom: 1rem;
 }
@@ -34,10 +38,14 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	place-items: center;
+	margin: 0.5rem;
 }
 
 .privacy {
-	word-spacing: 3rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 3rem;
+	margin-left: 4rem;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
@@ -95,6 +103,7 @@
 		order: 3;
 		justify-self: start;
 		margin-left: 1rem;
+		gap: 0;
 	}
 
 	.privacy div {
