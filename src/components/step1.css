@@ -1,0 +1,57 @@
+.tag,
+h2 {
+	text-align: center;
+}
+
+.step-app {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+/* .step1{
+    background-color: #fff;
+    height: ;
+} */
+.one {
+	margin: auto 0;
+}
+.oneflex {
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+}
+
+.onedes {
+	text-align: center;
+	margin: auto;
+	margin: 1.5rem auto;
+	width: 480px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.onegrid {
+	/* margin: 0.5rem; */
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin-bottom: 10rem;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	.step-app {
+		width: 100vw;
+	}
+
+	.onedes {
+		width: 100%;
+	}
+	.oneflex {
+		display: grid;
+		place-items: center;
+	}
+
+	.step1 {
+		margin-top: 2rem;
+	}
+}

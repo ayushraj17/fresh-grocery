@@ -1,0 +1,139 @@
+.hero {
+	position: relative;
+}
+
+h3 {
+	font-weight: 400;
+}
+
+.hero-items {
+	padding-top: 200px;
+	height: 610px;
+	/* object-fit: fill; */
+	background-position: center;
+	background-image: url("../assests/Group 3.jpg");
+	/* position: relative; */
+	/* top: 10px; */
+	/* left: auto; */
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+}
+
+.hero-items input {
+	height: 66px;
+	width: 794px;
+	border-radius: 0.5rem;
+	text-indent: 10%;
+	color: #707070;
+	font-weight: 600;
+}
+
+.search {
+	position: relative;
+	margin: 66px 0px 0px 0px;
+	/* margin-bottom: 500px; */
+}
+
+.btn,
+.gps,
+.location {
+	position: absolute;
+}
+.location {
+	top: 22px;
+	left: 22px;
+}
+
+.gps {
+	top: 22px;
+	right: 167px;
+}
+
+.btn {
+	top: 12px;
+	right: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.cities {
+	font-weight: 600;
+	/* margin-top: 1rem; */
+	color: #707070;
+	display: flex;
+
+	/* word-spacing: 1rem; */
+}
+
+.cities div {
+	margin: 1rem;
+	stroke: 1px solid green;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	.hero-items {
+		height: 323px;
+		padding: 0;
+		margin: 0;
+		padding-top: 40px;
+	}
+	h1 {
+		width: 204px;
+	}
+	h3 {
+		padding: 0;
+		margin: 0;
+		width: 318px;
+		height: 45px;
+		text-align: center;
+		margin-bottom: -2rem;
+	}
+	.hero-items input {
+		padding: 0;
+		margin: 0;
+		height: 40px;
+		width: 290px;
+		border-radius: 0.5rem;
+		text-indent: 20%;
+	}
+
+	.cities {
+		width: 290px;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+		/* grid-template-columns: repeat(2fr, auto); */
+		/* grid-template-rows: 1fr 1fr; */
+		font-size: 10px;
+		justify-items: center;
+		align-items: center;
+		justify-content: center;
+		margin-top: 0.5rem;
+	}
+	.cities div {
+		margin: 0;
+		text-align: center;
+		margin: 2px 5px;
+	}
+	.location {
+		top: 8px;
+		left: 16px;
+	}
+
+	.gps {
+		top: 10px;
+		right: 167px;
+		display: none;
+	}
+
+	.btn {
+		top: 0px;
+		right: 10px;
+		display: none;
+	}
+}

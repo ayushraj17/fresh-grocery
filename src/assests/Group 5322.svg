@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="117" height="95" viewBox="0 0 117 95">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #cdab82;
+      }
+
+      .cls-2 {
+        stroke: #cdab82;
+        stroke-width: 0.1px;
+        font-size: 14px;
+        font-family: SegoeUI-Light, Segoe UI;
+        letter-spacing: 0.04em;
+        font-weight: 300;
+      }
+
+      .cls-4 {
+        filter: url(#Path_6126);
+      }
+
+      .cls-5 {
+        filter: url(#Path_6125);
+      }
+
+      .cls-6 {
+        filter: url(#Path_6124);
+      }
+
+      .cls-7 {
+        filter: url(#Rectangle_3673);
+      }
+    </style>
+    <filter id="Rectangle_3673" x="0" y="0" width="117" height="95" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-color="#ecd3b1"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_6124" x="23.781" y="30.166" width="20.791" height="20.791" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-color="#ecd3b1"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_6125" x="69.198" y="28.78" width="20.791" height="20.79" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-3"/>
+      <feFlood flood-color="#ecd3b1"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_6126" x="15.017" y="20.5" width="87.782" height="27.552" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-4"/>
+      <feFlood flood-color="#ecd3b1"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_5322" data-name="Group 5322" transform="translate(-507 -231)">
+    <g class="cls-7" transform="matrix(1, 0, 0, 1, 507, 231)">
+      <rect id="Rectangle_3673-2" data-name="Rectangle 3673" class="cls-1" width="105" height="83" rx="20" transform="translate(6 5)"/>
+    </g>
+    <text id="Luxury" class="cls-2" transform="translate(566.187 300.5)"><tspan x="-20.954" y="0">Luxury</tspan></text>
+    <g id="Group_1202" data-name="Group 1202" transform="translate(526.517 255)">
+      <g class="cls-6" transform="matrix(1, 0, 0, 1, -19.52, -24)">
+        <path id="Path_6124-2" data-name="Path 6124" class="cls-3" d="M16.714,48.35a5.9,5.9,0,1,0,6.123,6.16c.006-.166.012-.335,0-.5A5.9,5.9,0,0,0,16.714,48.35Zm-.419,2.258L16.36,52.3a2.083,2.083,0,0,0-.512.239L14.6,51.39A3.637,3.637,0,0,1,16.294,50.608ZM13.91,52.139l1.249,1.154a2.163,2.163,0,0,0-.193.526l-1.693.069A3.641,3.641,0,0,1,13.91,52.139Zm-.6,2.767,1.705-.067a2.14,2.14,0,0,0,.235.505L14.09,56.594A3.735,3.735,0,0,1,13.307,54.905Zm1.542,2.376L16,56.035a1.973,1.973,0,0,0,.518.185l.067,1.7A3.725,3.725,0,0,1,14.849,57.281Zm5.738-3.687-1.693.068a2.032,2.032,0,0,0-.235-.511L19.812,51.9A3.683,3.683,0,0,1,20.587,53.594Zm-3.273-3.028a3.641,3.641,0,0,1,1.748.644l-1.151,1.247a1.937,1.937,0,0,0-.529-.2Zm.292,7.313-.067-1.7a1.954,1.954,0,0,0,.5-.23L19.286,57.1A3.653,3.653,0,0,1,17.606,57.879Zm2.385-1.518L18.735,55.2a2.127,2.127,0,0,0,.2-.52l1.691-.067A3.674,3.674,0,0,1,19.99,56.361Z" transform="translate(17.23 -14.68)"/>
+      </g>
+      <g class="cls-5" transform="matrix(1, 0, 0, 1, -19.52, -24)">
+        <path id="Path_6125-2" data-name="Path 6125" class="cls-3" d="M74,46.6a5.894,5.894,0,0,0-5.654,6.127,6,6,0,0,0,.081.74,5.892,5.892,0,0,0,11.7-.706c.007-.167.013-.335,0-.5A5.9,5.9,0,0,0,74,46.6Zm-.42,2.258.066,1.7a2.042,2.042,0,0,0-.511.239l-1.249-1.15A3.616,3.616,0,0,1,73.579,48.859ZM71.195,50.39l1.249,1.153a2.154,2.154,0,0,0-.193.527l-1.694.068A3.662,3.662,0,0,1,71.195,50.39Zm-.6,2.767,1.7-.067a2.146,2.146,0,0,0,.233.5l-1.155,1.251A3.708,3.708,0,0,1,70.593,53.156Zm1.54,2.376,1.151-1.246a1.965,1.965,0,0,0,.518.185l.068,1.7A3.729,3.729,0,0,1,72.133,55.532Zm5.738-3.688-1.694.068a2,2,0,0,0-.235-.509L77.1,50.152A3.688,3.688,0,0,1,77.871,51.844ZM74.6,48.817a3.629,3.629,0,0,1,1.749.645L75.2,50.708a1.933,1.933,0,0,0-.53-.2Zm.294,7.313-.068-1.7a1.938,1.938,0,0,0,.5-.228l1.245,1.153A3.653,3.653,0,0,1,74.892,56.13Zm2.382-1.518-1.256-1.159a2.113,2.113,0,0,0,.2-.521l1.692-.067A3.63,3.63,0,0,1,77.274,54.612Z" transform="translate(5.36 -14.32)"/>
+      </g>
+      <g class="cls-4" transform="matrix(1, 0, 0, 1, -19.52, -24)">
+        <path id="Path_6126-2" data-name="Path 6126" class="cls-3" d="M78.71,47.762c-.1-.183-.3-1.314-.51-1.308l-.905.028s.456-2.258.612-3.415a.41.41,0,0,0-.419-.464c-3,.093-16.009-2.717-20.071-5.746a2.919,2.919,0,0,0-1.49-.539c-3.071-.285-9.276-.132-11.833-.051a4.69,4.69,0,0,0-2.131.588s-6.153,3.7-8.357,4.62c-3.723,1.55-12.493,1.1-14.922.955A19.642,19.642,0,0,0,5.1,45.979,23.12,23.12,0,0,0,.5,47.764.978.978,0,0,0,.4,49.41a1.552,1.552,0,0,0,.465.261L1,50.189a3.468,3.468,0,0,0,2.033,2.339l1.892.782a9.485,9.485,0,0,0,3.4.716A6.443,6.443,0,0,1,8,52.826a6.576,6.576,0,0,1-.091-.845,6.745,6.745,0,0,1,6.472-7.013A6.788,6.788,0,0,1,21.4,51.442c.007.191,0,.381-.006.573a6.651,6.651,0,0,1-.529,2.3l1.588.038,32.491.349a6.7,6.7,0,0,1-1.528-3.264,6.292,6.292,0,0,1-.09-.845A6.744,6.744,0,0,1,59.8,43.583a6.788,6.788,0,0,1,7.018,6.474c.007.191,0,.381-.006.572a6.628,6.628,0,0,1-.39,1.957l6.389-.2a.565.565,0,0,0,.408-.193l1.49-1.716,1.632-.049a.563.563,0,0,0,.451-.25l1.894-2.853C78.8,47.154,78.812,47.945,78.71,47.762ZM51.7,41.068l-.147.03a1.869,1.869,0,0,0-1.135.731c-1.4.88-8.2.916-12.724.388l5.213-4.246a1.541,1.541,0,0,1,.943-.344l7.614-.107a.806.806,0,0,1,.817.783l.06,1.95A.8.8,0,0,1,51.7,41.068Z" transform="translate(19.52 -12.15)"/>
+      </g>
+    </g>
+  </g>
+</svg>

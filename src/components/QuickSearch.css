@@ -1,0 +1,29 @@
+.quick-search {
+	background-color: rgba(255, 225, 161, 0.12);
+	/* backgroundop */
+	height: 465px;
+	text-align: center;
+}
+
+.qsgrid {
+	margin-top: 5rem;
+	margin-bottom: 2rem;
+	margin-left: 6rem;
+	display: grid;
+	align-items: baseline;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	.qsgrid {
+		grid-template-columns: 1fr;
+		/* justify-items: center; */
+		margin: 0;
+		place-items: center;
+		margin: 2rem 0;
+		gap: 2rem;
+	}
+	.quick-search {
+		height: 1003px;
+	}
+}
